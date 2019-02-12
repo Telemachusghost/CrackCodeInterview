@@ -6,9 +6,7 @@ public class StringCodeReplace {
     
     public static void stringReplace(char[] str, int length) {
        int spaceCount = 0;
-       int space;
-       Stack<Integer> spaces = new Stack<Integer>(); // Keep track of where spaces are
-
+       
        for (int i = 0; i < length; i++) {
            
 	         if (str[i] == ' ') {
