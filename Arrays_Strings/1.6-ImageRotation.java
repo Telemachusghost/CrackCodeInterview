@@ -37,7 +37,7 @@ public class ImageRotation {
                 mat[y][N-1-x] = mat[N-1-x][N-1-y];
 
                 // Make left equal temp
-                mat[N-y-1][x] = temp
+                mat[N-y-1][x] = temp;
             }
 
         }
