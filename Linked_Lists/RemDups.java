@@ -15,7 +15,7 @@ public class RemDups {
         a.appendToTail(4);
         
         // 1 1 2 3 3 4
-        displayLinkedList(a);
+        Node.displayLinkedList(a);
         System.out.println();
         remDups(a);
         
